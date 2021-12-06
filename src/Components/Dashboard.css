@@ -1,0 +1,103 @@
+.wrapper {
+    display: flex;
+    height: 100vh;
+}
+
+.left-pane {
+    width: 25%;
+    border: 1px solid #c3bfbf;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+}
+
+.right-pane {
+    width: 75%;
+    border: 1px solid #c3bfbf;
+    padding: 30px 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.line-item-heading {
+    font-size: 14px;
+}
+
+.line-item-small-text {
+    font-size: 12px;
+    color: #b2a4a4;
+}
+
+.red-text {
+    color: red;
+}
+
+.green-text {
+    color: green;
+}
+
+li {
+    list-style: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    padding-top: 10px;
+}
+
+li div {
+    display: flex;
+    justify-content: space-between;
+}
+
+li.active {
+    background-color: #e7e4e4;
+}
+
+.right-header {
+    text-align: left;
+    border-bottom: 2px solid #c3bfbf;
+    padding-bottom: 15px;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 600;
+    margin: 0;
+    padding-bottom: 5px;
+}
+
+h2 {
+    margin: 0;
+    font-size: 20px;
+}
+
+h2 span {
+    margin-right: 30px;
+    font-weight: 500;
+}
+
+.details-section {
+    display: flex;
+    text-align: left;
+}
+
+.details-section table {
+    width: 70%;
+    margin-top: 5px;
+}
+
+th {
+    font-size: 10px;
+    color: #c3bfbf;
+    text-transform: uppercase;
+}
+
+td {
+    font-size: 18px;
+    font-weight: 600;
+}
